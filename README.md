@@ -7,6 +7,8 @@ A clean and efficient Android application that displays a list of countries usin
 
 ---
 
+<img alt="screenshot" height="600" src="https://github.com/user-attachments/assets/090c63ed-fabd-4f40-b519-2f0d4aca8d8c" width="280"/>
+
 ##  **Features**
 
 -  Fetch and display a list of countries with details.  
@@ -26,4 +28,32 @@ A clean and efficient Android application that displays a list of countries usin
 - **LiveData**: Observable UI state management  
 - **RecyclerView (XML)**: Efficient and customizable list UI  
 - **MockK + JUnit**: Unit testing the ViewModel and use case  
-- **ViewModel + ViewBinding**: Lifecycle-aware and type-safe UI updates  
+- **ViewModel + ViewBinding**: Lifecycle-aware and type-safe UI updates
+
+## **Clean Architecture – MVVM Layered Structure**
+```
+com.shyam.walmart_countries_assessment/
+
+├── data/
+│   ├── constants/
+│   ├── entity/
+│   ├── mappers/
+│   ├── remote/
+│   └── repository/
+├── domain/
+│   ├── Country.kt
+│   ├── GetCountriesUseCase.kt
+│   └── IRepository.kt
+├── presentation/
+│   ├── adaptor/
+│   ├── view/
+│   └── viewmodel/
+├── utils/
+│   ├── InternetCheck.kt
+│   └── UiState.kt
+└── test/
+    ├── IRepositoryTest.kt
+    ├── UseCaseTest.kt
+    └── ViewModelTest.kt
+```
+
