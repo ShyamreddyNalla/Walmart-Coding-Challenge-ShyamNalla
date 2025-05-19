@@ -1,18 +1,5 @@
 # **Explore Countries App – Walmart Assessment Project**
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/ba060986-dec4-403f-8216-eae4eecf498c" alt="screenshot" width="280" height="600"/></td>
-    <td>
-      <video width="320" height="600" controls>
-        <source src="https://github.com/user-attachments/assets/4ca40214-b59e-469b-a3c4-9a21111e12b4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </td>
-  </tr>
-</table>
-
----
 
 ##  **Description**
 
