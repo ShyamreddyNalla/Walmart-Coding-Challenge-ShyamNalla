@@ -7,8 +7,6 @@ A clean and efficient Android application that displays a list of countries usin
 
 ---
 
-<img alt="screenshot" height="600" src="https://github.com/user-attachments/assets/090c63ed-fabd-4f40-b519-2f0d4aca8d8c" width="280"/>
-
 ##  **Features**
 
 -  Fetch and display a list of countries with details.  
